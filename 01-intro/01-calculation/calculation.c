@@ -63,7 +63,7 @@ void division(void)
     printf("\nEnter denominator:\t ");
     scanf("%d", &denominator);
 
-    printf("Quotient is %d\n: ", numberator / denominator);
+    printf("Quotient is %d\n ", numberator / denominator);
 }
 
 int addition(int no1, int no2)

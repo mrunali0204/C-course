@@ -1,7 +1,8 @@
 #include<stdio.h>
 
-int main(void){
-    char chChar1 = 'A';
+int main(void)
+{
+    char chChar1 = 'A';                           
     char chChar2 = 97;
 
     int iNo1 = 98;
@@ -34,9 +35,4 @@ int main(void){
 
     printf("\n chAns in character: %c",chAns);   //D
     printf("\n chAns in character: %d",chAns);    //68
-
-
-
-
-
 }

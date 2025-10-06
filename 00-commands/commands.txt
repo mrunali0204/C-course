@@ -1,0 +1,3 @@
+visual studio command prompt -> 1. pushd path
+2. cl filename.c (filename.exe -> generates)
+3. filename.exe enter
