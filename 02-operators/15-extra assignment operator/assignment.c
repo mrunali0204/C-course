@@ -18,4 +18,6 @@ int main(void)
     iNo *= 10; 
     iNo = iNo * 10;
 
+    return 0;
+
 }
