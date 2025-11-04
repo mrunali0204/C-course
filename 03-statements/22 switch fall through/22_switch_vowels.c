@@ -26,7 +26,7 @@ int main(void)
         printf("It is not vowel\n"); 
     }
         return 0;
-    }
+}
 
 /*
 Enter characters:
