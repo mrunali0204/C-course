@@ -9,6 +9,8 @@ int main(void)
         continue;
         printf("%d\n", iCounter);          //13579           
     }
+
+    return 0;
 }
 
 /*

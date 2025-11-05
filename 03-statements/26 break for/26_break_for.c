@@ -9,4 +9,6 @@ int main(void)
         break;
         printf("%d", iCounter);                   //1
     }
+
+    return 0;
 }
