@@ -40,6 +40,23 @@ int main(void)
         iCounter++;
     }
 
+    //version 6
+    iCounter = 0;
+    for( ; iCounter < 3; )
+    {
+        printf("6 %d\n", iCounter);                //0 1 2
+        iCounter++;
+    }
+
+    //version 7
+    for(iCounter1 = 0, iCounter2 = 3  ; iCounter1 < 3, iCounter2 > 0  ; iCounter1++ , iCounter2--)
+        printf("%d\t%d\n", iCounter1, iCounter2);
+                           //0 1 2    //3 2 1
+
+    //version 8
+    for(iCounter = 3; iCounter < 3; iCounter++)
+        printf("8 %d\n", iCounter);                   //no output
+
     return 0;
 }
 
@@ -64,4 +81,12 @@ int main(void)
 5 0
 5 1
 5 2
+
+6 0
+6 1
+6 2
+
+0       3
+1       2
+2       1
 */
