@@ -46,7 +46,7 @@ int main(void)
 
         case 5: 
         iAns = Modulus(iNo1, iNo2);
-        break;
+        
     }
     printf("Answer is %d\n", iAns);                   
         
