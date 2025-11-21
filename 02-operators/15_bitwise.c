@@ -11,7 +11,8 @@ int main(void)
 
     printf("%d\n",20 << 2);               //80
     printf("%d\n",20 >> 2);               //5
-
+    
+    return 0;
 }
 
 /*
