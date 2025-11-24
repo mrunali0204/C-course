@@ -6,7 +6,7 @@ int main(void)
 {
     extern int g_iNo;
 
-    printf("In main %d\n", g_iNo);       // 2 errors - 1. g_iNo 2. Fun()
+    printf("In main %d\n", g_iNo);       // asks for Fun
 
     Fun();
 
@@ -21,12 +21,12 @@ int g_iNo = 20;
 Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
-46_external_linkage_error_main.c
+47_internal_linkage_main.c
 Microsoft (R) Incremental Linker Version 10.00.30319.01
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
-/out:46_external_linkage_error_main.exe
-46_external_linkage_error_main.obj
-46_external_linkage_error_main.obj : error LNK2019: unresolved external symbol _Fun referenced in function _main
-46_external_linkage_error_main.exe : fatal error LNK1120: 1 unresolved externals
+/out:47_internal_linkage_main.exe
+47_internal_linkage_main.obj
+47_internal_linkage_main.obj : error LNK2019: unresolved external symbol _Fun referenced in function _main
+47_internal_linkage_main.exe : fatal error LNK1120: 1 unresolved externals
 */
